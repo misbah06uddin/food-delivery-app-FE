@@ -1,0 +1,20 @@
+{
+  "/restaurant/**": {
+    "target": "http://localhost:9091",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/foodCatalogue/**": {
+    "target": "http://localhost:9092",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/order/**": {
+    "target": "http://localhost:9094",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
