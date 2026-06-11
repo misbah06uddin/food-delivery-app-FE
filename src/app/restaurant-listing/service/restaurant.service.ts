@@ -10,7 +10,7 @@ import { K8ExternalIp } from '../../constants/url';
 export class RestaurantService {
 
   // Local development path proxied by Angular CLI.
-  private apiUrl = '/restaurant/fetchAllRestaurants';
+  private apiUrl = K8ExternalIp+'/restaurant/fetchAllRestaurants';
 
   constructor(private http: HttpClient) { }
 
